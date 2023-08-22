@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            padding: 0;
+            margin: 0;
+            font-weight: 900; 
+               
+        }
+        .container{
+            padding: 10px;
+            background-color: gold;
+            border: 3px solid black;
+            display: flex;
+            justify-content: end;
+            gap: 80%;
+            border-radius: 10px;
+            
+           
+
+        }
+        .bigbox{
+            padding: 60px;
+            background-color: cyan;
+            margin: 10px;
+            border:3px solid black ;
+            border-radius:10px ;
+            filter: drop-shadow(10px 10px 20px);
+        }
+        .box1{
+            padding: 10px;
+            width: 300px;
+            margin: 20px;
+            border: 1px solid black;
+            background-color: rgb(0, 255, 170);
+            display: inline-block;
+            flex: 1;
+            border-radius: 10px;
+            filter: drop-shadow(10px 10px 20px);
+            overflow: hidden;
+             }
+        .box1:hover {
+            scale: 1.2;
+            transition: 2s ;
+             }
+        button[type="submit"]{
+            padding: 10px;
+            margin: 10px;
+            width: auto;
+            background-color: red;
+            color: white;
+            display: flex;
+       
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>VINTAGE GAMES</h1>
+        <a href="contact us.html">CONTACT US</a>
+
+        </div>
+        <div class="bigbox">
+        <div class="box1"><img src="./Images/mario.jpg" width="300px" height="150px"/>
+            <p>THIS IS SUPER MARIO.</p>
+            <a href="https://supermario-game.com/">click here to play</a>
+        </div>
+        <div class="box1"><img src="./Images/contra.jpg" width="300px" height="150px"/>
+            <p>THIS IS CONTRA FOR YOU HAVE FUN</p>
+            <a href="https://4gameground.com/contra-2/">click here to play</a>
+         </div>
+        <div class="box1"><img src="./Images/pacman.jpg" width="300px" height="150px"/>
+            <p>PAC MAN FOR YOU</p>
+            <a href="https://pacman.live/play.html">click here to play</a>
+        </div>
+        <div class="box1"><img src="./Images/doom.jpeg" width="300px" height="150px"/>
+            <p>DAMMN DOOM JUST GO FOR IT!!!!! YOU HAVE TO INSTALL THE GAME TO ENJOY</p>
+            <a href="https://oceansofgamess.com/doom-free-download/">click here to play install and play</a>    
+        </div>
+        <div class="box1"><img src="./Images/donkeykong.jpg" width="300px" height="150px"/>
+        <p>KING KONG BAAMMMMM!!!!!!!!!!!</p>
+        <a href="https://www.nintendo.co.za/Games/Characters-hub/Donkey-Kong-Hub/Donkey-Kong-Hub-846642.html">click here to play</a>
+        </div>
+        <a href="index.html"><button type="submit" value="click" class="right">BACK</button></a> 
+    </div>
+    
+</body>
+</html>
